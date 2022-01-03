@@ -11,9 +11,12 @@ CLK=2 PULSE Q1=1 Q2=0
 2.Design and test a circuit that checks for the sequence in 010 continuously in
 a data sequence using a JKFF,implement the design using a mealy machine
 
-
 use this sequence to run
-Set PR=1 CLR=1
-X=0 CLK= 1 pulse Q1=0 Q2=1 Y=0
-X=1 CLK =2ND PULSE Q1=1 Q2=0 Y=0
-CLK=NO CHANGE X=0 Y=1
+
+1) Set PR=1 CLR=1
+
+2)X=0 CLK= 1 pulse Q1=0 Q2=1 Y=0
+
+3)X=1 CLK =2ND PULSE Q1=1 Q2=0 Y=0
+
+4) CLK=NO CHANGE X=0 Y=1
